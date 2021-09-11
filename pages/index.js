@@ -1,10 +1,19 @@
-import styled from 'styled-components'
-
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`
+import { Fragment } from 'react-is';
+import styled from 'styled-components';
+import About from '../components/Homepage/About';
+import Contact from '../components/Homepage/Contact';
+import Hero from '../components/Homepage/Hero';
+import Profile from '../components/Homepage/Profile';
+import Services from '../components/Homepage/Services';
 
 export default function Home() {
-  return <Title>My page</Title>
+  return (
+    <Fragment>
+      <Hero />
+      <About />
+      <Services />
+      <Profile />
+      <Contact />
+    </Fragment>
+  );
 }
