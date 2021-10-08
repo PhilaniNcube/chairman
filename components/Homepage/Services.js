@@ -91,6 +91,12 @@ const Services = () => {
               We offer this service to save you escalating compliance costs.
             </article>
           </div>
+    <div className="service">
+            <h3 className="service-heading">Rental Housing Disputes</h3>
+            <article>
+              We provide a cost effective and amicable dispute resolution between tenants and landlords.
+            </article>
+          </div>
         </div>
       </div>
     </Wrapper>
